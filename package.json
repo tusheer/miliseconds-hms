@@ -1,0 +1,21 @@
+{
+	"name": "ms-to-hms",
+	"version": "1.0.0",
+	"description": "When put milliseconds its return to you data  separate by hour minutes and seconds.",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "--watch tsc ./src/index.ts",
+		"format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+		"lint": "tslint -p tsconfig.json",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jane Alam Tusher",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^2.0.5",
+		"tslint": "^6.1.2",
+		"tslint-config-prettier": "^1.18.0",
+		"typescript": "^3.9.7"
+	}
+}
